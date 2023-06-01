@@ -20,8 +20,8 @@ when num1 is equal to num2; otherwise return False
 """
 
 
-def is_same_num(a, b):
-    return a == b
+def is_same_num(num1, num2):
+    return num1 == num2
 
 
 print(is_same_num(4, 8))
