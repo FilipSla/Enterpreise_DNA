@@ -17,7 +17,7 @@ print("Sum of Employees budget is:", get_budgets(budget))
 def avg_year(value:list) -> float:
     """
     Takes a list of Dictionary of Employees
-    and returns the AVG of theri age
+    and returns the AVG of their age
     """
     return sum([i['age'] for i in value])/len(value)
 
